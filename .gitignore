@@ -24,6 +24,7 @@ mdl_eval/BlueSTARR_vs_DeltaSVM/.ipynb_checkpoints/*
 mdl_eval/BlueSTARR_vs_DeltaSVM/parquets_K562_bluestarr/*
 mdl_eval/BlueSTARR_vs_DeltaSVM/parquets_K562_enh/*
 mdl_eval/BlueSTARR_vs_DeltaSVM/parquets_K562_prom/*
+leave-one-out/slurm-normalized-mse/outputs/14.err
 
 *.gz
 *.fasta
