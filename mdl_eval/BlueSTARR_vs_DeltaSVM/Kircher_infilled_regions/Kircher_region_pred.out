@@ -1,0 +1,31 @@
+dcc-majoroslab-gpu-06
+Mon Mar 24 16:00:44 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.35.05              Driver Version: 560.35.05      CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX 6000 Ada Gene...    On  |   00000000:13:00.0 Off |                  Off |
+| 30%   27C    P8             21W /  300W |       2MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading CREs
+Writing coords file
+Extracting genomic sequences
+Running the model
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /work/igvf-pm/K562/full-set/K562 /tmp/tmpr9r3i6pe.inputs

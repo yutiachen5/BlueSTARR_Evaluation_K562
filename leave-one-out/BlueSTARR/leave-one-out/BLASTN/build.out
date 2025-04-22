@@ -1,0 +1,13 @@
+
+
+Building a new DB, current time: 06/04/2024 16:05:34
+New DB name:   /datacommons/igvf-pm/K562/leave-one-out/all_indexed
+New DB title:  /datacommons/igvf-pm/K562/leave-one-out/all.fasta
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /datacommons/igvf-pm/K562/leave-one-out/all_indexed
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 19425825 sequences in 453.729 seconds.
+
+
+Custom database built. Results saved to /datacommons/igvf-pm/K562/leave-one-out/all_indexed

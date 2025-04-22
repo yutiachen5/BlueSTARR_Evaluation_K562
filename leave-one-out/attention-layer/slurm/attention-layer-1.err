@@ -1,0 +1,79 @@
+2024-08-06 14:56:38.148813: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-06 14:56:38.148867: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-06 14:56:38.150040: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-06 14:56:38.156038: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-08-06 14:56:41.455146: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-08-06 14:56:47.099844: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.682853: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.687687: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.692525: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.696541: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.700362: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.840760: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.842404: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.843930: I tensorflow/core/common_runtime/gpu/gpu_process_state.cc:236] Using CUDA malloc Async allocator for GPU: 0
+2024-08-06 14:56:49.844083: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-08-06 14:56:49.845609: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22402 MB memory:  -> device: 0, name: NVIDIA RTX A5000, pci bus id: 0000:13:00.0, compute capability: 8.6
+2024-08-06 15:14:57.029724: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2024-08-06 15:21:10.911811: W external/local_tsl/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 10369300800 exceeds 10% of free system memory.
+2024-08-06 15:21:17.295365: W external/local_tsl/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 10369300800 exceeds 10% of free system memory.
+2024-08-06 15:21:21.501793: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8904
+2024-08-06 15:21:27.897381: I external/local_xla/xla/service/service.cc:168] XLA service 0x602ff700 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-08-06 15:21:27.897423: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA RTX A5000, Compute Capability 8.6
+2024-08-06 15:21:28.328028: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1722972089.226811 4169361 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+WARNING:tensorflow:5 out of the last 5 calls to <function _BaseOptimizer._update_step_xla at 0x14d9f749e050> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function _BaseOptimizer._update_step_xla at 0x14d9f749e050> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-06 15:21:33.750967: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:306] gpu_async_0 cuMemAllocAsync failed to allocate 1474560000 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 447086592/25322520576
+2024-08-06 15:21:33.751011: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:311] Stats: Limit:                     23490592768
+InUse:                     21486240176
+MaxInUse:                  22960575888
+NumAllocs:                     2672569
+MaxAllocSize:              10369300800
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2024-08-06 15:21:33.755057: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:63] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2024-08-06 15:21:33.755080: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 4, 72152
+2024-08-06 15:21:33.755097: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 8, 6
+2024-08-06 15:21:33.755101: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 16, 50
+2024-08-06 15:21:33.755105: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 256, 27
+2024-08-06 15:21:33.755109: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 512, 2
+2024-08-06 15:21:33.755113: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1024, 45
+2024-08-06 15:21:33.755117: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1028, 1
+2024-08-06 15:21:33.755121: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 4096, 22
+2024-08-06 15:21:33.755125: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 16384, 13
+2024-08-06 15:21:33.755129: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 153600, 16
+2024-08-06 15:21:33.755134: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 614400, 32
+2024-08-06 15:21:33.755137: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 831772, 1
+2024-08-06 15:21:33.755141: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 924516, 1
+2024-08-06 15:21:33.755152: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 4915200, 1
+2024-08-06 15:21:33.755156: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 8641084, 1
+2024-08-06 15:21:33.755160: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 9830400, 24
+2024-08-06 15:21:33.755164: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 39321600, 8
+2024-08-06 15:21:33.755168: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 157286400, 6
+2024-08-06 15:21:33.755172: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 368640000, 6
+2024-08-06 15:21:33.755176: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 737280000, 2
+2024-08-06 15:21:33.755180: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1474560000, 4
+2024-08-06 15:21:33.755184: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 10369300800, 1
+2024-08-06 15:21:33.755191: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:97] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 24628953088
+2024-08-06 15:21:33.755196: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:99] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 21486240176
+2024-08-06 15:21:33.755201: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 25065160704
+2024-08-06 15:21:33.755205: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 22960575888
+2024-08-06 15:21:33.755216: W tensorflow/core/framework/op_kernel.cc:1827] RESOURCE_EXHAUSTED: failed to allocate memory
+Traceback (most recent call last):
+  File "/datacommons/igvf-pm/K562/leave-one-out/BlueSTARR/BlueSTARR-multitask.py", line 433, in <module>
+    main(configFile,subdir,modelFilestem)
+  File "/datacommons/igvf-pm/K562/leave-one-out/BlueSTARR/BlueSTARR-multitask.py", line 90, in main
+    (model,history)=train(model,X_train,Y_train,X_valid,Y_valid)
+  File "/datacommons/igvf-pm/K562/leave-one-out/BlueSTARR/BlueSTARR-multitask.py", line 421, in train
+    history=model.fit(X_train,Y_train,verbose=config.Verbose,
+  File "/hpc/home/yc583/envs/tf2/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/hpc/home/yc583/envs/tf2/lib/python3.10/site-packages/tensorflow/python/framework/ops.py", line 5883, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: {{function_node __wrapped__Mul_device_/job:localhost/replica:0/task:0/device:GPU:0}} failed to allocate memory [Op:Mul] name: 

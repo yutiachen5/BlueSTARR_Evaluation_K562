@@ -1,0 +1,103 @@
+dcc-youlab-gpu-51
+Tue Aug  6 14:56:36 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX A5000               On  |   00000000:13:00.0 Off |                  Off |
+| 30%   16C    P8             16W /  230W |       2MiB /  24564MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Using MSE loss function with naive estimator
+loading data
+number of fasta seq:  2160271
+number of counts:  2160271
+number of fasta seq:  207943
+number of counts:  207943
+number of fasta seq:  231129
+number of counts:  231129
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 300, 4)]             0         []                            
+                                                                                                  
+ sine_position_encoding (Si  (None, 300, 4)               0         ['input_1[0][0]']             
+ nePositionEncoding)                                                                              
+                                                                                                  
+ tf.__operators__.add (TFOp  (None, 300, 4)               0         ['input_1[0][0]',             
+ Lambda)                                                             'sine_position_encoding[0][0]
+                                                                    ']                            
+                                                                                                  
+ layer_normalization (Layer  (None, 300, 4)               8         ['tf.__operators__.add[0][0]']
+ Normalization)                                                                                   
+                                                                                                  
+ multi_head_attention (Mult  (None, 300, 4)               1220      ['layer_normalization[0][0]', 
+ iHeadAttention)                                                     'layer_normalization[0][0]'] 
+                                                                                                  
+ dropout (Dropout)           (None, 300, 4)               0         ['multi_head_attention[0][0]']
+                                                                                                  
+ layer_normalization_1 (Lay  (None, 300, 4)               8         ['dropout[0][0]']             
+ erNormalization)                                                                                 
+                                                                                                  
+ multi_head_attention_1 (Mu  (None, 300, 4)               1220      ['layer_normalization_1[0][0]'
+ ltiHeadAttention)                                                  , 'layer_normalization_1[0][0]
+                                                                    ']                            
+                                                                                                  
+ dropout_1 (Dropout)         (None, 300, 4)               0         ['multi_head_attention_1[0][0]
+                                                                    ']                            
+                                                                                                  
+ layer_normalization_2 (Lay  (None, 300, 4)               8         ['dropout_1[0][0]']           
+ erNormalization)                                                                                 
+                                                                                                  
+ multi_head_attention_2 (Mu  (None, 300, 4)               1220      ['layer_normalization_2[0][0]'
+ ltiHeadAttention)                                                  , 'layer_normalization_2[0][0]
+                                                                    ']                            
+                                                                                                  
+ dropout_2 (Dropout)         (None, 300, 4)               0         ['multi_head_attention_2[0][0]
+                                                                    ']                            
+                                                                                                  
+ layer_normalization_3 (Lay  (None, 300, 4)               8         ['dropout_2[0][0]']           
+ erNormalization)                                                                                 
+                                                                                                  
+ multi_head_attention_3 (Mu  (None, 300, 4)               4868      ['layer_normalization_3[0][0]'
+ ltiHeadAttention)                                                  , 'layer_normalization_3[0][0]
+                                                                    ']                            
+                                                                                                  
+ dropout_3 (Dropout)         (None, 300, 4)               0         ['multi_head_attention_3[0][0]
+                                                                    ']                            
+                                                                                                  
+ layer_normalization_4 (Lay  (None, 300, 4)               8         ['dropout_3[0][0]']           
+ erNormalization)                                                                                 
+                                                                                                  
+ multi_head_attention_4 (Mu  (None, 300, 4)               19460     ['layer_normalization_4[0][0]'
+ ltiHeadAttention)                                                  , 'layer_normalization_4[0][0]
+                                                                    ']                            
+                                                                                                  
+ dropout_4 (Dropout)         (None, 300, 4)               0         ['multi_head_attention_4[0][0]
+                                                                    ']                            
+                                                                                                  
+ average_pooling1d (Average  (None, 1, 4)                 0         ['dropout_4[0][0]']           
+ Pooling1D)                                                                                       
+                                                                                                  
+ K562 (Dense)                (None, 1, 1)                 5         ['average_pooling1d[0][0]']   
+                                                                                                  
+==================================================================================================
+Total params: 28033 (109.50 KB)
+Trainable params: 28033 (109.50 KB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Training...
+Training set: (2160271, 300, 4)
+Epoch 1/200

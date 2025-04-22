@@ -1,0 +1,38 @@
+dcc-majoroslab-gpu-01
+Tue Apr  1 22:47:33 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.35.05              Driver Version: 560.35.05      CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA RTX 6000 Ada Gene...    On  |   00000000:13:00.0 Off |                  Off |
+| 30%   26C    P8             28W /  300W |       2MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Loading CREs
+Writing coords file
+Extracting genomic sequences
+Running the model
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
+/hpc/group/majoroslab/deepstarr/git/mutator-child.py /hpc/group/igvf/K562/full-set/300bp/slurms/train-unbiased-normalized/outputs/K562-7 /tmp/tmpehkxq9ee.inputs
