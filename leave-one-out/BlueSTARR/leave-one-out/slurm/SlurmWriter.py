@@ -360,8 +360,23 @@ for i in range(1,6):
 
     # slurm.addCommand('python /hpc/group/igvf/A549/full-set/BlueSTARR/BlueSTARR-multitask-sim.py /hpc/group/igvf/A549/full-set/BlueSTARR/A549.config '+
     #                 '/hpc/group/igvf/A549/GR-AP1/simulated-seq/data/bowl /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/train/bowl-10.0-'+str(i)+' train-10.0')
-    slurm.addCommand('python /hpc/group/igvf/K562/leave-one-out/BlueSTARR/test-variants-ref.py /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/train/bowl-10.0-' +str(i)
-                        +' /hpc/group/igvf/A549/GR-AP1/simulated-seq/data/Dex-200/low_act_5000_installed.txt /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/pred/low_act_5000_installed_pred_'+str(i)+'.txt')
+    # slurm.addCommand('python /hpc/group/igvf/K562/leave-one-out/BlueSTARR/test-variants-ref.py /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/train/bowl-10.0-' +str(i)
+    #                     +' /hpc/group/igvf/A549/GR-AP1/simulated-seq/data/Dex-200/low_act_5000_installed.txt /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/pred/low_act_5000_installed_pred_'+str(i)+'.txt')
+
+    # slurm.addCommand('python /hpc/group/igvf/A549/full-set/BlueSTARR/BlueSTARR-multitask-sim.py /hpc/group/igvf/A549/full-set/BlueSTARR/A549.config '+
+    #                 '/hpc/group/igvf/A549/GR-AP1/simulated-seq/data/cliff /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_0.5/train/cliff-0.5-'+str(i)+' train-0.5')
+    # slurm.addCommand('python /hpc/group/igvf/K562/leave-one-out/BlueSTARR/test-variants-ref.py /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_0.5/train/cliff-0.5-' +str(i)
+    #                     +' /hpc/group/igvf/A549/GR-AP1/simulated-seq/data/Dex-200/low_act_5000_installed.txt /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_0.5/pred/low_act_5000_installed_pred_'+str(i)+'.txt')
+
+    # slurm.addCommand('python /hpc/group/igvf/A549/full-set/BlueSTARR/BlueSTARR-multitask-sim.py /hpc/group/igvf/A549/full-set/BlueSTARR/A549.config '+
+    #                 '/hpc/group/igvf/A549/GR-AP1/simulated-seq/data/cliff /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_5/train/cliff-5.0-'+str(i)+' train-5.0')
+    # slurm.addCommand('python /hpc/group/igvf/K562/leave-one-out/BlueSTARR/test-variants-ref.py /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_5/train/cliff-5.0-' +str(i)
+    #                     +' /hpc/group/igvf/A549/GR-AP1/simulated-seq/data/Dex-200/low_act_5000_installed.txt /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_5/pred/low_act_5000_installed_pred_'+str(i)+'.txt')
+
+    # slurm.addCommand('python /hpc/group/igvf/A549/full-set/BlueSTARR/BlueSTARR-multitask-sim.py /hpc/group/igvf/A549/full-set/BlueSTARR/A549.config '+
+    #                 '/hpc/group/igvf/A549/GR-AP1/simulated-seq/data/cliff /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/enrichment_lognormal10_1.8/train/cliff-1.8-'+str(i)+' train-lognormal10')
+    slurm.addCommand('python /hpc/group/igvf/K562/leave-one-out/BlueSTARR/test-variants-ref.py /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/enrichment_lognormal10_1.8/train/cliff-1.8-' +str(i)
+                        +' /hpc/group/igvf/A549/GR-AP1/simulated-seq/data/Dex-200/low_act_5000_installed.txt /hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/enrichment_lognormal10_1.8/pred/low_act_5000_installed_pred_'+str(i)+'.txt')
 
 slurm.nice() # turns on "nice" (sets it to 100 by default)
 slurm.mem(20000)
@@ -468,7 +483,15 @@ slurm.setQueue("gpu-common,scavenger-gpu,biostat-gpu,majoroslab-gpu,igvf-gpu")
 # slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_3/train','bowl-3',5,'')
 # slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_3/pred','bowl-3',5,'')
 # slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/train','bowl-10',5,'')
-slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/pred','bowl-10',5,'')
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/bowl/no_enrichment_10/pred','bowl-10',5,'')
+
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_0.5/train','cliff-0.5',5,'')
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_0.5/pred','cliff-0.5',5,'')
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_5/train','cliff-5',5,'')
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/no_enrichment_5/pred','cliff-5',5,'')
+
+# slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/enrichment_lognormal10_1.8/train','cliff-1.8',5,'')
+slurm.writeArrayScript('/hpc/group/igvf/A549/GR-AP1/simulated-seq/slurm/cliff/enrichment_lognormal10_1.8/pred','cliff-1.8',5,'')
 
 
 # slurm.writeArrayScript('/hpc/group/igvf/A549/CRE-preds/DMSO/mutator_slurm',"MUTATE",300,"")
